@@ -11,5 +11,5 @@ const list = document.getElementById("list");
 submit.addEventListener("click",() =>{
     placeholder.style.color ="goldenrod";
     placeholder.textContent = `<li>${input.value}</li>`;
-
+    list.innerHTML = `<li>${input.value}</li>`;
 })
