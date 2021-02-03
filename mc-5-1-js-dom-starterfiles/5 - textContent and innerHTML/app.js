@@ -3,7 +3,13 @@ const input = document.getElementById("input");
 const submit = document.getElementById("submit");
 const list = document.getElementById("list");
 
-submit.addEventListener("click", () =>{
+//submit.addEventListener("click", () =>{
+//    placeholder.style.color ="goldenrod";
+  //  placeholder.textContent = input.value;
+//})
+
+submit.addEventListener("click",() =>{
     placeholder.style.color ="goldenrod";
-    placeholder.textContent = input.value;
+    placeholder.textContent = `<li>${input.value}</li>`;
+
 })
